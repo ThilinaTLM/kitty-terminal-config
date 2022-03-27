@@ -1,8 +1,24 @@
-# Kitty Terminal Configuration
-Personal kitty terminal configuration
+# Introduction
+My personal kitty terminal configuration.
 
-# Get Setup
+# Quick Setup
+Please execute the following command to install configuration on your system.
+```bash
+curl -o- https://raw.githubusercontent.com/ThilinaTLM/kitty-terminal-config/main/install.sh | bash
 ```
-git clone --depth 1 https://github.com/ThilinaTLM/kitty-terminal-config.git\
-~/.config/kitty
+
+> Script will backup existing kitty configuration and install
+
+# Manual Setup
+
+1. Clone the repo 
+```bash
+git clone https://github.com/ThilinaTLM/kitty-terminal-config.git
 ```
+
+2. Create a symbolic link
+```bash
+ln -s <path-to-repo> ~/config/kitty
+
+```
+
